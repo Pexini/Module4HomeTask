@@ -24,12 +24,11 @@ public class MinMaxMid {
         } else {
             max = num3;
         }
-    mid = (num1 + num2 + num3) /3;
+        mid = (num1 + num2 + num3) / 3;
         System.out.println("Smallest: " + min);
         System.out.println("Largest: " + max);
         System.out.println("Average: " + mid);
     }
-
 
 
 }
