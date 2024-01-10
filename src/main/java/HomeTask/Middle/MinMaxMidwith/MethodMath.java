@@ -1,4 +1,4 @@
-package HomeTask.MinMaxMidwith;
+package HomeTask.Middle.MinMaxMidwith;
 
 import java.util.Scanner;
 

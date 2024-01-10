@@ -1,4 +1,4 @@
-package HomeTask;
+package HomeTask.Middle;
 
 import java.util.Scanner;
 
