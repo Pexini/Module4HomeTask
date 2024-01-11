@@ -7,16 +7,20 @@ public class Task4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please write what do you want on breakfast we have Eggs, Coffee, Milk  :");
         String breakfast = scanner.next();
-        if (breakfast.contains("Eggs") && breakfast.contains("Coffee") && breakfast.contains("Milk")) {
-            System.out.println("You can cook omelette and coffee");
-        } else if (breakfast.contains("Eggs") && breakfast.contains("Coffee")) {
-            System.out.println("You can cook fried eggs and coffee");
-        } else if (breakfast.contains("Eggs")) {
-            System.out.println("You can cook fried eggs");
-        } else {
+        boolean hasEggs = breakfast.contains("Eggs");
+        boolean hasCoffee = breakfast.contains("Coffee");
+        boolean hasMilk = breakfast.contains("Milk");
+
+        if (hasEggs && hasCoffee && hasMilk) {
+            System.out.println("You can cook omelette and coffee");}
+        if (hasEggs && hasCoffee) {
+            System.out.println("You can cook fried eggs and coffee");}
+        if (breakfast.contains("Eggs")) {
+            System.out.println("You can cook fried eggs");}
+        if (!hasEggs && !hasCoffee && !hasMilk)
             System.out.println("Invalid input");
         }
     }
-}
+
 
 
