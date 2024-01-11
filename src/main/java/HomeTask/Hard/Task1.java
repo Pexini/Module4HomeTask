@@ -32,6 +32,7 @@ public class Task1 {
         double width = scanner.nextDouble();
 
         double result = length * width;
+
         System.out.println("Rectangle area " + result);
     }
 
@@ -47,6 +48,7 @@ public class Task1 {
 
         double p = (a + b + c) / 2;
         double result = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+
         System.out.println("Triangle area " + result);
 
     }
@@ -60,6 +62,4 @@ public class Task1 {
         System.out.println("Circle Area " + result);
 
     }
-
-
 }
