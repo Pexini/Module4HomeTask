@@ -6,9 +6,9 @@ public class MiddleTask3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter 3 side of triangle : ");
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
+        double a = scanner.nextDouble();
+        double b = scanner.nextDouble();
+        double c = scanner.nextDouble();
 
         if (a > b + c || b > a + c || c > a + b) {
             System.out.println( "Sorry triangle is not real");
