@@ -32,7 +32,34 @@ public class Task1 {
         double width = scanner.nextDouble();
 
         double result = length * width;
-        System.out.println( "Rectangle area " + result);
+        System.out.println("Rectangle area " + result);
     }
+
+    private static void calculateTriangleArea() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please input 3 length of your triangle : ");
+        System.out.print("Enter length a: ");
+        double a = scanner.nextDouble();
+        System.out.print("Enter length b: ");
+        double b = scanner.nextDouble();
+        System.out.print("Enter length c: ");
+        double c = scanner.nextDouble();
+
+        double p = (a + b + c) / 2;
+        double result = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+        System.out.println("Triangle area " + result);
+
+    }
+
+    private static void CalculateCircleArea() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please input radius of your circle : ");
+        double r = scanner.nextDouble();
+        double result = Math.PI * Math.pow(r, 2);
+
+        System.out.println("Circle Area " + result);
+
+    }
+
 
 }
