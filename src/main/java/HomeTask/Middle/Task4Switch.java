@@ -17,10 +17,8 @@ public class Task4Switch {
         switch (breakfast) {
             case "Eggs":
                 result = "You can cook fried eggs";
-                break;
             case "Eggs Coffee":
                 result = "You can cook fried eggs and coffee";
-                break;
             case "Eggs Coffee Milk":
                 result = "You can cook omelette and coffee";
                 break;
